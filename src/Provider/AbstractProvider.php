@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the league/oauth2-client library
  *
@@ -46,17 +47,17 @@ abstract class AbstractProvider
     /**
      * @var string Key used in a token response to identify the resource owner.
      */
-    const ACCESS_TOKEN_RESOURCE_OWNER_ID = null;
+    public const ACCESS_TOKEN_RESOURCE_OWNER_ID = null;
 
     /**
      * @var string HTTP method used to fetch access tokens.
      */
-    const METHOD_GET = 'GET';
+    public const METHOD_GET = 'GET';
 
     /**
      * @var string HTTP method used to fetch access tokens.
      */
-    const METHOD_POST = 'POST';
+    public const METHOD_POST = 'POST';
 
     /**
      * @var string
