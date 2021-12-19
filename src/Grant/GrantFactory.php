@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the league/oauth2-client library
  *
@@ -71,7 +72,7 @@ class GrantFactory
 
         $this->checkGrant($class);
 
-        return $this->setGrant($name, new $class);
+        return $this->setGrant($name, new $class());
     }
 
     /**
